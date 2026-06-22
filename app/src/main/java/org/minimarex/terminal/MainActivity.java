@@ -53,10 +53,8 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(mMainPager);
 
         tabs.getTabAt(0).setText("Terminal");
-        //tabs.getTabAt(0).setIcon(R.drawable.ic_network);
 
         tabs.getTabAt(1).setText("Logs");
-        //tabs.getTabAt(1).setIcon(R.drawable.ic_transfer);
 
         tabs.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
